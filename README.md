@@ -1,4 +1,4 @@
-# check_dht [![CodeFactor](https://www.codefactor.io/repository/github/wernerfred/check_dht/badge)](https://www.codefactor.io/repository/github/wernerfred/check_dht)
+# check_dht [![Release](https://img.shields.io/github/release/wernerfred/check_dht.svg)](https://github.com/wernerfred/check_dht/releases) [![CodeFactor](https://www.codefactor.io/repository/github/wernerfred/check_dht/badge)](https://www.codefactor.io/repository/github/wernerfred/check_dht)
 
 This plugin will read the temperature and humidity values from your sensor (dht11, dht22, 3202).
 
