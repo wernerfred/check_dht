@@ -37,3 +37,20 @@ object CheckCommand "check_dht" {
   }
 }
 ```
+
+Example ```Service``` for use with ```icinga2```:
+```
+apply Service "dht" {
+  import "generic-service"
+
+  check_command = "check_dht"
+
+  check_interval = 2m 
+
+  assign where host.vars.tempsensor == "true"
+}
+
+```
+It is recommended to check only in 2 min intervalls or above.
+
+Also make sure to additionally set ```$dht_gpio$``` and ```$dht_mode$``` (e.g. in the host config file)
